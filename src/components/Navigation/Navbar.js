@@ -22,7 +22,7 @@ function Navbar(props) {
     return (
         <div style={navBarHeight}>
             <nav className="navbar navbar-light" style={navBarStyleOBj}>
-      <span className="navbar-brand mb-0 h1" style={navbarTitleStle}>Ecommerce Application</span>
+      <span className="navbar-brand mb-0 h1" style={navbarTitleStle}>Depo 24</span>
     </nav>
         </div>
     );

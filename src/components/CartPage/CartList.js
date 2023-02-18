@@ -26,7 +26,7 @@ function CartList(props) {
       })
       .then((json) => console.log(json));
 
-    fetch("http://localhost:3008/api/v1/cart")
+    fetch(Env.url + "api/v1/cart")
       .then(async (response) => {
         console.log("cartListresponse", response);
         response = await response.json();
